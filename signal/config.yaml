@@ -1,6 +1,6 @@
 ---
 name: Signal Messenger
-url: https://github.com/haberda/signal-addon/tree/master/
+url: https://github.com/mkruseonline/signal-addon/tree/master/
 version: dev
 slug: signal_messenger
 arch:
@@ -25,4 +25,4 @@ schema:
   SIGNAL_CLI_CMD_TIMEOUT: int
 environment:
   SIGNAL_CLI_CONFIG_DIR: /config
-image: ghcr.io/haberda/signal/{arch}
+image: ghcr.io/mkruseonline/signal/{arch}
